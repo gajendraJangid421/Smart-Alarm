@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".MainActivity3"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="370dp"
+        android:layout_height="375dp"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:text="Question"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_above="@+id/button6"
+        android:background="@color/purple_500"
+        android:text="Button1111"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_above="@+id/button7"
+        android:background="@color/purple_500"
+        android:layout_marginTop="5dp"
+        android:text="Button2222"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_above="@+id/button8"
+        android:background="@color/purple_500"
+        android:layout_marginTop="5dp"
+        android:text="Button3333"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_above="@+id/button_change2"
+        android:background="@color/purple_500"
+        android:layout_marginTop="5dp"
+        android:text="Button4444"
+        android:textColor="@color/white" />
+
+
+    <Button
+        android:id="@+id/button_change2"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:enabled="false"
+        android:background="@color/ic_launcher_background"
+        android:layout_marginTop="10dp"
+        android:text="Memory Test"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

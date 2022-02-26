@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@color/cardview_dark_background">
+
+    <TextView
+        android:id="@+id/tv_level"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:text="Level 1"
+        android:textSize="30sp"
+        android:textStyle="normal"
+        android:textColor="#D986EC"
+        android:gravity="left"/>
+
+    <TextView
+        android:id="@+id/tv_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="0"
+        android:textSize="50dp"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/et_number"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:digits="1234567890"
+        android:hint="What was the number?"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textColorHint="#00BCD4"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/b_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/purple_500"
+        android:text="Confirm"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button_cancel"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#03A9F4"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="Switch off"
+        android:textColor="#04146A"
+        android:textSize="22sp"
+        android:textStyle="italic" />
+
+
+</LinearLayout>
