@@ -13,3 +13,9 @@ With this app the user's one programming based question will get solved and by m
 App Illustration Video - https://www.linkedin.com/posts/gajendra-jangid-3333261ab_vitpune-softwaredevelopment-androiddevelopment-activity-6806597236944883712-pClG?utm_source=linkedin_share&utm_medium=member_desktop_web
 
 App Link - https://drive.google.com/file/d/1xXuwSIWycVwgndMPI9Tfl3rnwjE-lE36/view?usp=sharing
+
+![Screenshot_20220714-170105 1](https://user-images.githubusercontent.com/89866416/178979844-edeca56f-3c5d-4ab1-9574-6b8e4442bf17.jpg)
+![Screenshot_20220714-170130 1](https://user-images.githubusercontent.com/89866416/178979926-d257410f-d328-417e-aa9d-4555139c237b.jpg)
+![Screenshot_20220714-170158 1](https://user-images.githubusercontent.com/89866416/178979986-866a56a6-0d4a-4871-aec9-a34c06223acc.jpg)
+
+
